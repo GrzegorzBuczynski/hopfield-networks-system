@@ -1,0 +1,92 @@
+# Pliki wykonywalne
+*.exe
+*.out
+hopfield
+hopfield_debug
+hopfield_release
+hopfield_small
+hopfield_test
+
+# Pliki skryptów (opcjonalne - usuń jeśli chcesz trackować)
+# compile.bat
+
+# Pliki obiektowe
+*.o
+*.obj
+
+# Pliki bibliotek
+*.a
+*.lib
+*.so
+*.dll
+
+# Pliki tymczasowe
+*.tmp
+*.temp
+*~
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pliki IDE/Edytorów
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Pliki kompilacji
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Pliki debugowania
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Pliki logów
+*.log
+
+# Pliki danych programu (opcjonalne - usuń jeśli chcesz trackować wzorce)
+patterns.txt
+
+# Pliki backup
+*.bak
+*.backup
+
+# Pliki archiwów
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Pliki dokumentacji wygenerowanej
+*.pdf
+*.docx
+
+# Pliki konfiguracyjne systemu
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Pliki Git
+.git/
+.gitignore.bak
+
+# Pliki specyficzne dla Windows
+*.lnk
+*.url
+
+# Pliki specyficzne dla Linux/macOS
+*.app
+*.dmg
+
+# Pliki testowe
+test_*
+*_test
