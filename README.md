@@ -200,25 +200,6 @@ g++ -std=c++17 -O2 -Wall -Wextra -o hopfield.exe main.cpp
 - **C++ standard**: C++17
 - **Default patterns**: 4 (Square, Cross, X, Triangle T)
 
-## 🐛 Troubleshooting
-
-### Problem: Colors not displaying
-**Solution**: Use Windows Terminal or PowerShell instead of cmd.exe
-
-### Problem: Compilation error
-**Solution**: Check if you have C++17 compiler:
-```bash
-g++ --version
-```
-
-### Problem: Program doesn't find patterns
-**Solution**: 
-- Check if patterns are saved in `patterns.txt`
-- Use option 4 to see pattern library
-- Add new patterns with option 1
-
-### Problem: Permission denied during compilation
-**Solution**: Run the clean command in compile.bat or manually delete hopfield.exe
 
 ## 📚 Theory
 
@@ -233,16 +214,6 @@ Hopfield networks are recurrent neural networks used for:
 - Image compression
 - Solving NP-complete problems
 - Recommendation systems
-
-## 🆕 Recent Updates (v2.0)
-
-- **English interface** - All text converted to English for better compatibility
-- **Fixed-width formatting** - Consistent matrix display with proper spacing
-- **Triangle (T) pattern** - Added to default patterns for better recognition
-- **Enhanced colors** - Improved ANSI color coding and legends
-- **Row/column numbering** - Better visualization for large matrices
-- **Automatic cleanup** - Compilation script removes previous binary
-- **Better error handling** - Improved user experience
 
 ## 👨‍💻 Author
 
